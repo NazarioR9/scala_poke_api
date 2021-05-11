@@ -9,7 +9,7 @@ import model.templates.Form
 import model.templates.Item
 import model.templates.Specie
 
-case class CatIn(
+case class PokemonIn(
                 abilities: Array[Ability],
                 base_experience: Int,
                 forms: Array[Form],
