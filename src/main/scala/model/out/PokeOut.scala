@@ -5,7 +5,7 @@ import model.templates.Move
 import model.templates.Ability
 import model.templates.Type
 
-case class Out(
+case class PokeOut(
               Id: Int = null,
               Name: String = null,
               Weight: Int = null,

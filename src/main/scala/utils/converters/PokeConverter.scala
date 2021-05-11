@@ -1,12 +1,12 @@
 package utils.converters
 
-import model.in.CatIn
-import model.out.Out
+import model.in.PokeIn
+import model.out.PokeOut
 
 
-object CatConverter extends Converter[CatIn, Out] {
-  override def convert(input: CatIn): Out =
-    Out(
+object PokeConverter extends Converter[PokeIn, PokeOut] {
+  override def convert(input: PokeIn): PokeOut =
+    PokeOut(
       Id = input.id,
       Name = input.name,
       Weight = input.weight,

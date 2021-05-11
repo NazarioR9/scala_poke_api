@@ -1,15 +1,8 @@
 package model.in
 
-import model.templates.Stat
-import model.templates.Move
-import model.templates.Ability
-import model.templates.Type
-import model.templates.Sprite
-import model.templates.Form
-import model.templates.Item
-import model.templates.Specie
+import model.templates.{Ability, Form, GameIndice, Item, Move, PastType, Specie, Sprite, Stat, Type}
 
-case class CatIn(
+case class PokeIn(
                 abilities: Array[Ability],
                 base_experience: Int,
                 forms: Array[Form],
