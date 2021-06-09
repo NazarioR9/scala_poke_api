@@ -6,11 +6,11 @@ import model.templates.Ability
 import model.templates.Type
 
 case class PokeOut(
-              Id: Int = null,
+              Id: Int,
               Name: String = null,
-              Weight: Int = null,
-              Height: Int = null,
-              Experience: Int = null,
+              Weight: Int,
+              Height: Int,
+              Experience: Int,
               Types: Array[Type],
               Stats: Array[Stat],
               Moves: Array[Move],
