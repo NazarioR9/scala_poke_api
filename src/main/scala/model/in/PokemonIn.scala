@@ -1,13 +1,6 @@
 package model.in
 
-import model.templates.Stat
-import model.templates.Move
-import model.templates.Ability
-import model.templates.Type
-import model.templates.Sprite
-import model.templates.Form
-import model.templates.Item
-import model.templates.Specie
+import model.templates.{Ability, Form, GameIndice, Item, Move, Specie, Sprite, Stat, Type}
 
 case class PokemonIn(
                 abilities: Array[Ability],
@@ -22,7 +15,7 @@ case class PokemonIn(
                 moves: Array[Move],
                 name: String,
                 order: Int,
-                past_types: Array[PastType],
+//                past_types: Array[PastType],
                 specie: Array[Specie],
                 sprites: Array[Sprite],
                 stats: Array[Stat],

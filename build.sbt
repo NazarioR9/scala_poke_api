@@ -1,4 +1,4 @@
-name := "youtube"
+name := "pokeapi"
 
 version := "0.1"
 
