@@ -57,3 +57,4 @@ case class Sprite(
 case class Form(name: String, url: String)
 case class Item(name: String, url: String)
 case class Specie(name: String, url: String)
+case class GameIndice(game_index: Int)
