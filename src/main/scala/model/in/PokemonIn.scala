@@ -16,8 +16,8 @@ case class PokemonIn(
                 name: String,
                 order: Int,
 //                past_types: Array[PastType],
-                specie: Array[Specie],
-                sprites: Array[Sprite],
+                species: Specie,
+                sprites: Sprite,
                 stats: Array[Stat],
                 types: Array[Type],
                 weight: Int
